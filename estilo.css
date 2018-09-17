@@ -1,0 +1,145 @@
+/* Ícone de lupa */
+.search.icon {
+    color: #000;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 3px;
+    width: 12px;
+    height: 12px;
+    border: solid 1px white;
+    border-radius: 100%;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .search.icon:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    height: 6px;
+    width: 1px;
+    background-color: white;
+  }
+  /* Ícone de menu */
+.menu.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 10px;
+  width: 17px;
+  height: 1px;
+  background-color: white;
+}
+.menu.icon:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 17px;
+  height: 1px;
+  background-color: white;
+}
+.menu.icon:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 17px;
+  height: 1px;
+  background-color: white;
+}
+header{
+    display:flex;
+    height:15vh;
+    justify-content: space-around;
+    align-items:cventer;
+    background-color: #000;
+   color:white;
+}
+#navegação{
+    display: none;
+}
+#navegação nav{
+  color: aliceblue;
+}
+header>div{
+    height:20%;
+    width: 20%;
+    position: relative;
+}
+h1{
+font-size: 1em;
+
+}
+#navegação{
+  background-color: #000;
+  display: none;
+
+}
+#navegação nav{
+  display:flex;
+  justify-content: space-around;
+  font-size:13pt;
+  width: 80%;
+}
+body{
+    background: url(img/tijolo\ logo.png);
+    background-size: cover;
+    margin: 0;
+}
+.produto img{
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#itens{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 470px){
+header>div{
+  display: none;
+}
+#navegação{
+  display:flex;
+  justify-content: center;
+}
+#navegação nav a{
+  text-decoration: none;
+  color: aliceblue;
+}
+#navegação>div{
+  display:none;
+
+}
+h1{
+  font-size: 2em;
+  }
+}
+@media screen and (min-width:700px){
+  #navegação{
+    justify-content: space-between;
+  }
+  #navegação nav{
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  #navegação>div{
+   justify-content:flex-end; 
+   display:flex;
+   width: 60%;
+  }
+  header{
+    height: 8vh;
+  }
+  h1{
+    position: relative;
+    bottom: 10px;
+  }
+}
