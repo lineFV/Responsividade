@@ -1,0 +1,20 @@
+@media screen and (min-width: 470px){
+header>div{
+  display: none;
+}
+#navegação{
+  display:flex;
+  justify-content: center;
+}
+#navegação nav a{
+  text-decoration: none;
+  color: aliceblue;
+}
+#navegação>div{
+  display:none;
+
+}
+h1{
+  font-size: 2em;
+  }
+}

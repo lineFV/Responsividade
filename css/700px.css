@@ -1,0 +1,22 @@
+@media screen and (min-width:700px){
+    #navegação{
+      justify-content: space-between;
+    }
+    #navegação nav{
+      justify-content: space-between;
+      width: 60%;
+    }
+  
+    #navegação>div{
+     justify-content:flex-end; 
+     display:flex;
+     width: 60%;
+    }
+    header{
+      height: 8vh;
+    }
+    h1{
+      position: relative;
+      bottom: 10px;
+    }
+  }
